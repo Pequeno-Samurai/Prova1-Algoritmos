@@ -3,16 +3,16 @@
 	int total=0, positivo=0, negativo=0, cem=100; 
 	float n=0, soma=0, media=0;
 		while(1){ 
-			printf("Digite um valor: "); 
-			scanf("%f", &n); 
-				if (n != 0){ 
-					if(n > 0) 
-					positivo++; 
-						else 
-						negativo++; 
-						soma += n; 
-						total++; }
-				else break; } 
+		printf("Digite um valor: "); 
+		scanf("%f", &n); 
+			if (n != 0){ 
+				if(n > 0) 
+				positivo++; 
+					else 
+					negativo++; 
+					soma += n; 
+					total++; }
+		else break; } 
 	media = soma / total;
 	printf("\nA media aritmetica dos valores lidos eh: %.2f\n",media);
 	printf("A quantidade de valores positivos eh: %d\n",positivo); 
