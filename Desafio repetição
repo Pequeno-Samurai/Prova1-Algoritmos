@@ -1,3 +1,14 @@
+Implemente um programa que leia um número não determinado de valores inteiros utilizando a instrução de repetição while e calcule:
+ ● A média aritmética dos valores lidos;
+ ● A quantidade de valores positivos;
+ ● A quantidade de valores negativos;
+ ● Percentual de valores negativos e positivos.
+A saída precisa obedecer o padrão abaixo:
+ ● A Média aritmética dos valores lidos é: xxxx
+ ● A quantidade de valores positivos é: xxx
+ ● A quantidade de valores negativos é: xxx
+ ● x% dos números digitados são negativos e y% dos valores digitados foram positivos.
+
 #include <stdio.h> 
 
 	int total=0, positivo=0, negativo=0, cem=100; 
