@@ -1,4 +1,4 @@
-//5.Crie uma função em que receba 3 números inteiros e retorne o menor valor.
+//5.Crie uma funÃ§Ã£o em que receba 3 nÃºmeros inteiros e retorne o menor valor.
 
 #include <stdio.h>
 
