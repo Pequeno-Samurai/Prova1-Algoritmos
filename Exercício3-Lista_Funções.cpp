@@ -1,4 +1,4 @@
-//3.Crie uma função que receba 2 números inteiros e retorne o menor valor.
+//3.Crie uma funÃ§Ã£o que receba 2 nÃºmeros inteiros e retorne o menor valor.
 
 #include <stdio.h>
 
