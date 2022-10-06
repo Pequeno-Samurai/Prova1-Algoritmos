@@ -1,4 +1,4 @@
-//4.Crie uma função que receba 3 números inteiros e retorne o maior valor.
+//4.Crie uma funÃ§Ã£o que receba 3 nÃºmeros inteiros e retorne o maior valor.
 
 #include <stdio.h>
 
