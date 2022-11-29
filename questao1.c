@@ -1,43 +1,40 @@
 #include <stdio.h>
+#include <locale.h>
 
 int main ()
 {
+	setlocale(LC_ALL, "Portuguese");
 	int num;
 	
-	printf("Digite um numero inteiro: ");
+	printf("Digite um numero inteiro entre 1-7: ");
 	scanf("%d", &num);
 	
-	if (num==1)
+	switch(num)
 	{
-	printf("\nDomingo"); 
-	}
-	else if (num==2)
-	{
-	printf("\nSegunda"); 
-	}
-	else if (num==3)
-	{
-	printf("\nTerca"); 
-	}
-	else if (num==4)
-	{
-	printf("\nQuarta"); 
-	}
-	else if (num==5)
-	{
-	printf("\nQuinta"); 
-	}
-	else if(num==6)
-	{
-	printf("\nSexta"); 
-	}
-	else if (num==7)
-	{
-	printf("\nSabado"); 
-	}
-	else 
-	{
-	printf("\nNumero invalido"); 
+		case 1:
+			printf("\nDomingo");
+			break;
+		case 2:
+			printf("\nSegunda");
+			break;
+		case 3:
+			printf("\nTerça");
+			break;
+		case 4:
+			printf("\nQuarta");
+			break;
+		case 5:
+			printf("\nQuinta");
+			break;
+		case 6:
+			printf("\nSexta");
+			break;
+		case 7:
+			printf("\nSabado");
+			break;
+		default:
+			printf("Numero invalido !");
+			break;
 	}
 	return 0; 
 }
