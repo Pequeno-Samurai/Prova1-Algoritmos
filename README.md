@@ -8,11 +8,13 @@ Data: 09/05/2022
 Atividade Avaliativa 1
 
 Peso: 5,0
+
 1- Faça um Programa que leia um número inteiro e exiba o dia
 correspondente da semana. (1- Domingo , 2- Segunda, etc.) se digitar outro
 valor deve aparecer valor inválido).
 
 Peso: 5,0
+
 2-Faça um programa que faça 5 perguntas para uma pessoa sobre um crime.
 As perguntas são:
 
