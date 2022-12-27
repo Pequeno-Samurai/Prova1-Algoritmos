@@ -14,7 +14,6 @@ int main()
 	inocente++; 
 		} 
 	}
-	
 	fflush(stdin);
 	printf("Esteve no local do crime? ");
 	scanf("%c", &op);
